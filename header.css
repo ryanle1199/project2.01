@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    color: lightcoral;
+}
+
+
+.main-nav {
+    display: flex;
+    background: darkolivegreen;
+    justify-content: space-between;
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.sub-nav {
+    display: flex;
+}
+
+.full-width {
+    display: none;
+}
+.short-width {
+    display: flex;
+}
+
+@media (min-width: 768) {
+    .short-width {
+        display: flex;
+    }
+}
+
+.search-form {
+    flex-grow: 2;
+    display: flex;
+    padding: 12px lightblue;
+    
+}
+
+
+
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    border-right: orange;
+}
+
+.company-name {
+    color: purple;
+    font-size: x-large;
+    font-family: cursive;
+}
